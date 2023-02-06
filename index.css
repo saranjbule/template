@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading */
+
+.header {
+  background-color: #29263b;
+  color: #f3f9ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.giftIcon {
+  width: 22px;
+  height: 19px;
+  margin: 0px 10px 0px;
+}
+
+.headerBoldContent {
+  font-weight: 700;
+}
+
+.headingButton {
+  background-color: #1f1d2b;
+  color: #f3f9ff;
+  margin-left: 25px;
+  padding: 12px 12px;
+}
+
+.leftTimeBlock {
+  background-color: #1f1d2b;
+  color: #f3f9ff;
+  margin-left: 15px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 3px 10px;
+}
+
+/* Section */
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1d1b2f;
+}
+
+.sectionLeft {
+  width: 50%;
+  margin: 80px 60px;
+}
+
+.sectionRight {
+  width: 50%;
+}
+
+.sectionBoy {
+  height: 100vh;
+}
+
+.sectionHeading {
+  width: 574px;
+  height: 192px;
+  left: 51px;
+  top: 141px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
+.almondText {
+  color: #eb7c69;
+}
+
+.sectionSubHeading {
+  color: #eb7c69;
+  margin: 15px 0px 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  width: 85%;
+}
+
+.sectionBonus {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #f3f9ff;
+  letter-spacing: 2px;
+}
+
+.bonusBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bonusSubBlock {
+  background-color: #191726;
+  color: #f3f9ff;
+  margin: 5px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  padding: 5px 15px;
+}
+
+.bonusSubBlock:hover {
+  color: #eb7c69;
+}
+
+.bonusCaption {
+  color: #f3f9ff;
+  margin: 15px 0px;
+}
+
+.sectionButton {
+  padding: 20px;
+  color: #ffffff;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  width: 480px;
+  height: 64px;
+  background: #eb7c69;
+  box-shadow: 0px 0px 10px 5px rgba(235, 124, 105, 0.25);
+  border-radius: 10px;
+  border: 0;
+}
